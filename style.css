@@ -10,7 +10,7 @@ body{
     height:100vh;
     Background: #240046;
     display:grid;
-    background-image: url(https://img.freepik.com/fotos-gratis/ilustracao-de-paisagens-noturnas_1409-7262.jpg?w=1380&t=st=1714845385~exp=1714845985~hmac=4d93667e8552d0364c6df4389833e4ed2db168e54ffaec853e20a7d8f2653b83);
+    background-image: url(./paisagem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
