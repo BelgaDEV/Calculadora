@@ -155,87 +155,7 @@ form input.ac,form input.del{
 /*========================== RESPONSIVE MOBILE===================================*/
 
 
-*:focus,
-*:active {
-outline: none !important;
--webkit-tap-highlight-color: transparent;
-}
 
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .wrapper .icon {
-    position: relative;
-    background: transparent;
-    border-radius: 50%;
-    padding: 15px;
-    margin: 10px;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(156, 16, 16, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -ms-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-    
-    .wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background: #fff;
-    color: #fff;
-    padding: 5px 8px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    border-radius: 5px;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    }
-    
-    .wrapper .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #fff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -webkit-transform: translate(-50%) rotate(45deg);
-    -moz-transform: translate(-50%) rotate(45deg);
-    -ms-transform: translate(-50%) rotate(45deg);
-    -o-transform: translate(-50%) rotate(45deg);
-    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-    
     .neonIcon {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 1.3rem;
@@ -267,3 +187,5 @@ outline: none !important;
             text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00f, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
         }
     }
+
+    
