@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    height:100vh;
+    Background: #240046;
+    display:grid;
+    background-image: url(https://img.freepik.com/fotos-gratis/ilustracao-de-paisagens-noturnas_1409-7262.jpg?w=1380&t=st=1714845385~exp=1714845985~hmac=4d93667e8552d0364c6df4389833e4ed2db168e54ffaec853e20a7d8f2653b83);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    width: 100%;
+    
+    height: 100%;
+
+    display: flex;
+}
+
+.calculator h2 {
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size:1.8rem;
+}
+
+.neon-text {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    color: #5f0000; /* Cor do texto */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00f, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+
+}
+
+.neon-text:hover {
+    animation: neon .3s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00f, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00f, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
+    }
+}
+
+.calculator{
+    background: transparent;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.219);
+    margin:auto;
+
+    border-radius: 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height:60px;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-weight: 700;
+    font-size:1.7em;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.calculator form input.NumpadBtns{
+    background: #012a4a;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 2;
+    font-size: 45px;
+    box-shadow: none;
+    padding:20px;
+    box-sizing: border-box;
+    background: #218380; 
+    box-shadow: 0 0 10px 3px #00000033;
+    height:80px;
+    color: white;
+}
+
+form input.equal{
+width: 145px;
+background: #005f08
+}
+form input.ac,form input.del{
+    background: #5f0000
+}
+
+.symbols{
+    background-color: #edae49;
+}
+.special{
+    background: #248277;
+}
+
+.calculator form input:hover {
+    box-shadow: 0px 0px 5px 3px #00000025;
+}
+
+.footer-text1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixa o rodapé no final da página */
+    left: 0; /* Alinha o rodapé à esquerda */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    width: 100%; /* Largura total */
+}
+
+.footer-text1 {
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    color: #5f0000; /* Cor do texto */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00f, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+
+}
+
+.footer-text1:hover {
+    animation: neon .3s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00f, 0 0 40px #00f, 0 0 70px #00f, 0 0 80px #00f, 0 0 100px #00f, 0 0 150px #00f;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #00f, 0 0 20px #00f, 0 0 35px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 75px #00f;
+    }
+}
+
+
+/*========================== RESPONSIVE MOBILE===================================*/
+
+
